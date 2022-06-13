@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+main {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #2F4F4F;
+  color: whitesmoke;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.photos {
+  width: 100%;
+  max-width: 600px;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px auto;
+  overflow: hidden;
+  border: 2px solid gray;
+  padding: 10px;
+  border-radius: 5px;
+  animation: scale 0.5s linear;
+}
+.photos:nth-of-type(1) {
+  margin-top: 40px;
+}
+@keyframes scale {
+  from {
+    transform: scaleY(0.5);
+  }
+}
+.photos img {
+  width: 100%;
+  display: block;
+  max-width: 150px;
+  height: 100%;
+  object-fit: cover;
+}
+.photos p {
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: #2F4F4F;
+}
+
+.wow {
+  width: 600px;
+  height: 300px;
+  background: url('./assets/fantastic.png') no-repeat center/cover;
+  border: 2px solid gray;
+  border-radius: 5px;
+}

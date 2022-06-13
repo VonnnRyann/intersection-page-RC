@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+  #root {
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+  }
+  main {
+    width: 100%;
+    height: 1000px;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  main h1 {
+    position: fixed;
+    margin-top: 10px;
+    font-size: 3rem;
+  }
+  section {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    background-color: firebrick;
+  }
+  .wow {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    background: url('./assets/fin.png') no-repeat center center/cover;
+  }
+  section h1 {
+    font-size: 3rem;
+  }
